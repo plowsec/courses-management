@@ -1,6 +1,6 @@
 # Description
 
-Full-stack, database-first web application (VueJS, Spring Boot, Hibernate, MySQL) to learn modern technologies. The app allows to manage courses and supports 3 different roles:
+Full-stack, database-first web application (VueJS, Spring Boot, Hibernate, MySQL) to learn modern technologies. The app allows to manage courses and supports 4 different roles:
 * Admin (can create users).
 * Head teacher (can see everything and set the registration period).
 * Teacher (can add courses, see who is registered, etc).

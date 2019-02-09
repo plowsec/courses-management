@@ -6,6 +6,8 @@ Full-stack, database-first web application (VueJS, Spring Boot, Hibernate, MySQL
 * Teacher (can add courses, see who is registered, etc).
 * Student (can subscribe to courses).
 
+![alt text](https://raw.githubusercontent.com/plowsec/courses-management/master/2019-02-09_22-34.png)
+
 # Usage
 
 ## Backend

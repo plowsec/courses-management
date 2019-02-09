@@ -11,9 +11,9 @@ Full-stack, database-first web application (VueJS, Spring Boot, Hibernate, MySQL
 ## Backend
 
 ```
-cd code/backend/target
+cd code/backend
 mvn package
-java -jar  target/courses-management-1.0-SNAPSHOT.jar
+java -jar target/courses-management-1.0-SNAPSHOT.jar
 ```
 
 The backend will be available at http://localhost:8081

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="address.xsd">
+    <rue num="69">Imp des carottes</rue>
+    <ville npa="1700">Fribpute</ville>
+</adresse>

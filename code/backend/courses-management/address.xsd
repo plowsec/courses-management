@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xsd:complexType name="rueType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="num" type="xsd:integer" use="required">
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="villeType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="npa" type="xsd:integer" use="required">
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+    <xsd:complexType name="adresseType">
+        <xsd:sequence>
+            <xsd:element name="rue" type="rueType"/>
+            <xsd:element name="ville" type="villeType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="adresse" type="adresseType" />
+</xsd:schema>
+

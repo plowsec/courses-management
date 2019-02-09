@@ -1,0 +1,52 @@
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.formulaire{
+  display: block;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.centered{
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.addButton{
+  margin-left: 23%;
+}
+
+.align-left{
+  text-align: left;
+  margin-left: 0;
+}
